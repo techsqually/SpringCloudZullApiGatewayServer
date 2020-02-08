@@ -1,0 +1,14 @@
+zull:
+  prefix: /zullapi
+  ignored-services: '*'
+  host:
+    max-total-connections: 1000
+    max-per-route-connections: 1000
+    route:
+      SpringCloudConfigClientPractice:
+        path: /employee/v1/create
+        senstive-headers: null
+        service-id: SpringCloudConfigClientPractice
+        
+        
+     
